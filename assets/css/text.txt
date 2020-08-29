@@ -1,0 +1,4 @@
+الرئيسية https://omaralisoliman.github.io/sobl-eltofer/
+صفحة المنتجات والبحث  https://omaralisoliman.github.io/sobl-eltofer/search-page
+صفحة المنتج وتفاصيله https://omaralisoliman.github.io/sobl-eltofer/product-details
+صقحة السله https://omaralisoliman.github.io/sobl-eltofer/cart-page
