@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/bootstrap-ar.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="./assets/css/slick.css" />
+  <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- start top header -->
+  <div class="top-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="top-header-login">
+            <ul class="list-unstyled">
+              <li>
+                <a href="">
+                  <i class="fas fa-user-circle"></i><span>تسجيل الدخول</span>
+                </a>
+              </li>
+              <li>
+                <a href="">حساب جديد</a>
+              </li>
+              <div class="clear"></div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <div class="top-header-option">
+            <a href="#" class="lang">
+              <img src="./assets/images/ksa.png" alt=""><span>
+                <select name="" id="" class="select-language">
+                  <option value="">اللغة العربية</option>
+                </select>
+              </span>
+            </a>
+            <a href="#" class="lang">
+              <i class="fas fa-shopping-cart"></i><span>
+                <select name="" id="" class="select-language">
+                  <option value="">250ر.س</option>
+                </select>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end top header -->
+
+  <!-- start navbar -->
+  <div class="upper-navbar">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/images/logo.png" alt="" data-aos="fade-up" data-aos-duration="500">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                اقسام الموقع
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                الماركت
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">من نحن</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">اتصل بنا</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="far fa-heart"></i>
+                <span class="number">3</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="number">3</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fas fa-search"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- end navbar -->
+
+  <!-- start path  -->
+  <div class="path">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <div>
+            <span class="first"><a href="#">الرئيسية</a></span>
+            <span><a href="#"> تعديل الاعلان</a> </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end path -->
+
+  <div class="account">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-lg-3">
+          <div class="nav v-tabs-right-choses my-account-navs flex-column nav-pills" id="v-pills-tab" role="tablist"
+            aria-orientation="vertical">
+            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#my-account" role="tab"
+              aria-controls="v-pills-home" aria-selected="true">
+              <img src="./assets/images/Icon-feather-user.png" alt="">
+              <span>حسابي على المتجر</span>
+            </a>
+            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#my-visa" role="tab"
+              aria-controls="v-pills-profile" aria-selected="false">
+              <img src="./assets/images/Icon-feather-credit-card.png" alt="">
+              <span>بطاقتي</span>
+            </a>
+            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#my-product" role="tab"
+              aria-controls="v-pills-messages" aria-selected="false">
+              <img src="./assets/images/Icon-material-add-shopping-cart.png" alt="">
+              <span>مشترياتي السابقة</span>
+            </a>
+            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#fav-product" role="tab"
+              aria-controls="v-pills-settings" aria-selected="false">
+              <img src="./assets/images/Icon-awesome-heart.png" alt="">
+              <span>المنتجات المفضلة</span>
+            </a>
+            <a class="nav-link" id="v-pills-comment-tab" data-toggle="pill" href="#comment-rate" role="tab"
+              aria-controls="v-pills-settings" aria-selected="false">
+              <img src="./assets/images/Icon-material-add-shopping-cart.png" alt="">
+              <span>التقيمات والتعليقات</span>
+            </a>
+            <div class="log-out">
+              <a href="#" class="btn">تسجيل الخروج</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-9">
+          <div class="tab-content my-account-tabs" id="v-pills-tabContent">
+            <div class="tab-pane fade show active" id="my-account" role="tabpanel" aria-labelledby="v-pills-home-tab">
+              <h5 class="tab-header">
+                حسابي على المتجر
+              </h5>
+              <div class="row">
+                <div class="col-sm-12 col-lg-6">
+                  <div class="my-account-details">
+                    <div class="card">
+                      <div class="card-header">
+                        <h6>تفاصيل الحساب</h6>
+                        <a href="" class="edit">
+                          <i class="fas fa-pen"></i>
+                          <span>تعديل</span>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="name">محمد عبد الوهاب عبد الرحمن</h5>
+                        <h6 class="email">diana.foster@mail.com</h6>
+                        <a href="" class="change-pass">
+                          <img src="./assets/images/change-pass.png" alt="">
+                          <span>تغيير كلمة المرور</span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- rebeat -->
+                <div class="col-sm-12 col-lg-6">
+                  <div class="phones my-account-details">
+                    <div class="card">
+                      <div class="card-header">
+                        <h6>جهات الاتصال</h6>
+                        <a href="" class="edit">
+                          <i class="fas fa-pen"></i>
+                          <span>تعديل</span>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li>
+                            <img src="./assets/images/phone.png" alt="">
+                            <span>
+                              <span class="phone-number">رقم الجوال</span>
+                              <p class="number">(081) 669-778-99</p>
+                            </span>
+                          </li>
+                          <li>
+                            <img src="./assets/images/place.png" alt="">
+                            <span>
+                              <span class="phone-number">عنوان التوصيل الافتراضي</span>
+                              <p class="number adress">الرياض طريق عثمان بن عفان الفرعي
+                                التعاون الرياض 1234</p>
+                            </span>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="my-visa" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+              بطاقتي
+            </div>
+            <div class="tab-pane fade" id="my-product" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+              <h5 class="tab-header">
+                مشترياتي السابقة
+              </h5>
+              <div class="prev-product-card">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <h6>الطلب رقم <span class="order-number">x6053205fa2</span></h6>
+                        <a href="" class="delete">
+                          <i class="fas fa-times-circle"></i>
+                          <span>حذف</span>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li class="product-info">
+                            <h5>عدد المنتجات <span class="number">05</span>منتجات</h5>
+                          </li>
+                          <li>
+                            <h5>تاريخ الطلب<span class="date">23/01/2020</span></h5>
+                          </li>
+                          <li class="product-info">
+                            <h5>إجمالي السعر<span class="price">150.00</span>ر.س</h5>
+                          </li>
+                          <li>
+                            <h5>تاريخ الاستلام<span class="price">01/06/2020</span></h5>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rebeat -->
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <div class="card-header">
+                        <h6>الطلب رقم <span class="order-number">x6053205fa2</span></h6>
+                        <a href="" class="delete">
+                          <i class="fas fa-times-circle"></i>
+                          <span>حذف</span>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <ul class="list-unstyled">
+                          <li class="product-info">
+                            <h5>عدد المنتجات <span class="number">05</span>منتجات</h5>
+                          </li>
+                          <li>
+                            <h5>تاريخ الطلب<span class="date">23/01/2020</span></h5>
+                          </li>
+                          <li class="product-info">
+                            <h5>إجمالي السعر<span class="price">150.00</span>ر.س</h5>
+                          </li>
+                          <li>
+                            <h5>تاريخ الاستلام<span class="price">01/06/2020</span></h5>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade fav-product-class" id="fav-product" role="tabpanel"
+              aria-labelledby="v-pills-settings-tab">
+              <h5 class="tab-header">
+                المنتجات المفضلة
+              </h5>
+              <div class="fav-product-card">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <a href="#" class="heart">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <p class="card-text">سعر الوحدة<span class="price">100 ر.س</span></p>
+                            <div class="rate">
+                              <i class="far fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-add-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                              <span>اضف للعربة</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rebeat -->
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <a href="#" class="heart">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <p class="card-text">سعر الوحدة<span class="price">100 ر.س</span></p>
+                            <div class="rate">
+                              <i class="far fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-add-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                              <span>اضف للعربة</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rebeat -->
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <a href="#" class="heart">
+                        <i class="fas fa-heart"></i>
+                      </a>
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <p class="card-text">سعر الوحدة<span class="price">100 ر.س</span></p>
+                            <div class="rate">
+                              <i class="far fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <a href="#" class="btn btn-add-cart">
+                              <i class="fas fa-shopping-cart"></i>
+                              <span>اضف للعربة</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade av-product-class" id="comment-rate" role="tabpanel"
+              aria-labelledby="v-pills-comment-tab">
+              <h5 class="tab-header">
+                التقييمات والتعليقات
+              </h5>
+              <div class="comment-and-rate">
+                <div class="row">
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <h5 class="info">رقم الطلب<span class="price">x6053205fa2</span></h5>
+                            <h5 class="info">تاريخ الاستلام<span class="price">01/06/2020</span></h5>
+                            <a href="#" class="btn btn-rate">
+                              <span>تقييم هذا المنتج</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rebeat -->
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <h5 class="info">رقم الطلب<span class="price">x6053205fa2</span></h5>
+                            <h5 class="info">تاريخ الاستلام<span class="price">01/06/2020</span></h5>
+                            <a href="#" class="btn btn-rate">
+                              <span>تقييم هذا المنتج</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- rebeat -->
+                  <div class="col-sm-12 col-lg-12">
+                    <div class="card">
+                      <div class="row no-gutters">
+                        <div class="col-sm-12 col-md-2 col-lg-2">
+                          <img src="./assets/images/new-added.png" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-sm-12 col-md-10 col-lg-10">
+                          <div class="card-block card-body px-2">
+                            <h4 class="card-title">سماعات أبل أصلية</h4>
+                            <h5 class="info">رقم الطلب<span class="price">x6053205fa2</span></h5>
+                            <h5 class="info">تاريخ الاستلام<span class="price">01/06/2020</span></h5>
+                            <a href="#" class="btn btn-rate">
+                              <span>تقييم هذا المنتج</span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-3">
+          <img src="./assets/images/footer-img.png" alt="" class="footer-img">
+          <p class="footer-par">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم
+          </p>
+          <div class="pay">
+            <a href="">
+              <img src="./assets/images/visa-1.png" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/visa-2.png" alt="">
+            </a>
+            <a href="">
+              <img src="./assets/images/visa-3.png" alt="">
+            </a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-6 mt-mid">
+          <ul class="list-unstyled footer-list">
+            <li>
+              <a href="">الرئيسية</a>
+            </li>
+            <li>
+              <a href="">أضيف مؤخراً
+              </a>
+            </li>
+            <li>
+              <a href="">الأكثر شراءاً
+              </a>
+            </li>
+            <li>
+              <a href="">أقسام الموقع
+              </a>
+            </li>
+            <li>
+              <a href="">خدمات مخصصة
+              </a>
+            </li>
+            <li>
+              <a href="">فروعنا</a>
+            </li>
+            <li>
+              <a href="">الالكترونيات
+              </a>
+            </li>
+            <li>
+              <a href="">الأثاث</a>
+            </li>
+            <li>
+              <a href="">أجهزة منزلية
+              </a>
+            </li>
+            <li>
+              <a href="">قسم الأطفال
+              </a>
+            </li>
+            <li>
+              <a href="">الملابس</a>
+            </li>
+            <li>
+              <a href="">الأسئلة الشائعة
+              </a>
+            </li>
+            <li>
+              <a href="">إرجاع المنتجات
+              </a>
+            </li>
+            <li>
+              <a href="">منطقة العملاء
+              </a>
+            </li>
+            <li>
+              <a href="">سياسة الخصوصية</a>
+            </li>
+            <div class="clear"></div>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-3 mt-last">
+          <h5 class="subscripe">الاشتراك بالنشرة الاخبارية</h5>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="سجل بريدك الالكتروني" aria-label="Recipient's username"
+              aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button">
+                <i class="fas fa-envelope"></i>
+              </button>
+            </div>
+          </div>
+          <div class="footer-social">
+            <a href="">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-behance"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-pinterest"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+
+  <!-- start copy -->
+  <div class="copy-right">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6">
+          <p>جميع الحقوق محفوظة لموقع جديلة @ 2020</p>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 txt-l">
+          <span>تصميم وبرمجة</span>
+          <a href="">
+            <img src="./assets/images/logo-fn.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end copy -->
+
+
+
+  <script src="./assets/js/jquery-3.3.1.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="./assets/js/plugin.js"></script>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>

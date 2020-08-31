@@ -83,6 +83,50 @@ $(document).ready(function () {
     focusOnSelect: true
   });
 
-  // $("#example").htmlNumberSpinner();
-  // $("#example2").htmlNumberSpinner();
+    // choses-slider
+    $('.choses-slider').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: false,
+      loop: true,
+      rtl: true,
+      infinite: true,
+      responsive: [{
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        },
+        {
+          breakpoint: 376,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    });
+
+  $("#example").htmlNumberSpinner();
+  $("#example2").htmlNumberSpinner();
 });
