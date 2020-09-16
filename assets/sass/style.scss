@@ -244,6 +244,11 @@ img {
     padding-bottom: 0;
     // overflow: hidden;
   }
+  .header-slider{
+    .slider-item{
+      direction: rtl;
+    }
+  }
   .img-bf {
     position: relative;
     z-index: 5;
@@ -413,7 +418,7 @@ img {
       content: url("../images/line-1.png");
       position: absolute;
       top: 10px;
-      left: -65px;
+      left: -46px;
     }
     &::before {
       @extend %initlizeFonAwesomeAfter;

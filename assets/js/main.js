@@ -6,7 +6,6 @@ $(document).ready(function () {
     $(".header-slider").slick({
       dots: true,
       arrows: false,
-      rtl: true,
     });
   }
 
@@ -14,7 +13,6 @@ $(document).ready(function () {
     $('.product-slider').slick({
       dots: false,
       arrows: true,
-      rtl: true,
     })
   }
 
@@ -27,7 +25,6 @@ $(document).ready(function () {
     autoplay: true,
     loop: true,
     infinite: true,
-    rtl: true,
     responsive: [{
         breakpoint: 1024,
         settings: {
@@ -92,7 +89,6 @@ $(document).ready(function () {
       slidesToScroll: 1,
       autoplay: false,
       loop: true,
-      rtl: true,
       infinite: true,
       responsive: [{
           breakpoint: 1024,
