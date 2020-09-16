@@ -2437,6 +2437,10 @@ footer {
   .steps-card .card-body ul li::after {
     margin-right: 27px;
   }
+  .pagination{
+    width: 100%;
+    overflow: auto;
+  }
 }
 
 @media (max-width: 524px) {

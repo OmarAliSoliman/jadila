@@ -58,7 +58,7 @@ img {
   font-family: "Font Awesome 5 Free";
   margin-right: 6px;
   margin-left: 6px;
-  content: "";
+  content: "\f105";
   font-weight: 900;
   font-size: 13px;
   color: #fff;
@@ -679,7 +679,7 @@ img {
   text-decoration: none;
 }
 .faq .card-header .btn-link::after {
-  content: "";
+  content: "\f30b";
   position: absolute;
   right: 4%;
   top: 50%;
@@ -788,7 +788,7 @@ img {
   margin-top: 5px;
 }
 .search-result .filter .panel-collapse .rate i {
-  color: #00909e;
+  color: #e5c400;
 }
 .search-result .filter .panel-collapse .container input {
   position: absolute;
@@ -818,14 +818,19 @@ img {
   position: absolute;
   display: none;
 }
-.search-result .filter .panel-collapse .container input:checked ~ .checkmark:after {
+.search-result
+  .filter
+  .panel-collapse
+  .container
+  input:checked
+  ~ .checkmark:after {
   display: block;
 }
 .search-result .filter .panel-collapse .container .checkmark:after {
-  right: 6px;
-  top: 2px;
-  width: 9px;
-  height: 14px;
+  right: 3px;
+  top: 7px;
+  width: 15px;
+  height: 6px;
   border: solid white;
   border-width: 0 0 2px 2px;
   -webkit-transform: rotate(-45deg);
@@ -1241,7 +1246,7 @@ img {
   font-size: 28px;
 }
 .new-added .choses .choses-slider .slick-prev {
-  right: 30px;
+  left: 86%;
   z-index: 99;
 }
 .new-added .choses .choses-slider .slick-prev::before {
@@ -1596,7 +1601,7 @@ img {
   margin-bottom: 55px;
 }
 .rate-product .rate-product-card .rate-header:before {
-  content: "";
+  content: "\f060";
   margin-right: 10px;
   font-size: 20px;
 }
@@ -1684,7 +1689,7 @@ img {
   border: 1px solid #d9d9d9;
 }
 .steps-card .card-body ul li::after {
-  content: "";
+  content: "\f061";
   margin-left: 60px;
   font-size: 40px;
   color: #d9d9d9;
@@ -2053,6 +2058,10 @@ footer .footer-social a i {
   .steps-card .card-body ul li::after {
     margin-left: 27px;
   }
+  .pagination{
+    width: 100%;
+    overflow: auto;
+  }
 }
 @media (max-width: 524px) {
   .top-header .top-header-option {
@@ -2117,6 +2126,10 @@ footer .footer-social a i {
   }
   .steps-card .card-body ul li::after {
     content: "";
+  }
+  .new-added .choses .choses-slider .slick-prev {
+    left: 80%;
+    z-index: 99;
   }
 }
 @media (max-width: 376px) {
